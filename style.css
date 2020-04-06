@@ -1,0 +1,29 @@
+body{
+    background-color: blueviolet;
+    font: normal 15pt Arial;
+}
+section{
+    background: cornsilk;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(228, 10, 10);
+    image-rendering: auto;
+}
+#img{
+    max-width:500px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+header{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+footer{
+    color: tomato;
+    text-align: center;
+    font-style: italic;
+}

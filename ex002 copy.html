@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: rgb(176, 176, 221);  
+            color: cornsilk;
+            font: normal 40pt Arial;
+            text-align: center;
+        }
+        h1{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello word!</h1>
+    Olá, mundo!
+    <script>
+       var n1 = Number(window.prompt("Digite um numero."))
+       var n2 = Number(window.prompt("Digite outro numero."))
+       var s3 = n1 + n2
+       var s = "Reinaldo"
+       document.write(`<br>A soma é ${s}</br>`)//Escreve na tela
+        window.alert(`A soma é ${s3}`)// templates string com placerooders
+       window.alert(s3.toLocaleString('pt-BR',{style:'currency', currency:'BRL'}))//Passa para uma determinada moeda de um país
+    </script>
+</body>
+</html>

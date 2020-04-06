@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+                background-color: chartreuse;
+                text-align: center;
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(245, 27, 27);
+            }
+            div#msg{
+                font: normal 20pt Arial;
+                width: 200px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+            }
+
+    </style>
+   
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Olá mundo</p>
+    <div id="msg">Olá mundo</div>
+    <script>
+        window.document.write(window.document.URL)
+        document.write("<br>Reinaldo</br>")
+       var p1 = document.getElementsByTagName('p')[0]// pega o elemento
+        document.write(p1.innerText)
+        p1.style.color = 'blue'
+        var d = document.querySelector('div#msg')//pega o ID da div , toda DIV é representada por # e a classe por (.)
+        d.style.background = 'blue'
+    </script>
+</body>
+</html>

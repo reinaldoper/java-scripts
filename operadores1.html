@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-color: rgb(176, 176, 221);
+            color: cornsilk;
+            font: normal 40pt Arial;
+            text-align: center;
+        }
+
+        h1 {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello word!</h1>
+    oi
+    <script>
+        var nome = window.prompt('Qual é seu nome? ')
+        var idade = window.prompt('Qual é sua idade? ')
+        var salário = Number(window.prompt('Qual é seu salário? '))
+        document.write(`Olá, <strong>${nome}</strong>! Seja muito bem vindo.</br>`)
+        document.write(`A sua idade é de <strong>${idade}</strong> anos.</br>`)
+        document.write(`${idade >= 18 ? 'Parabéns, você é maior de 18 anos pode acessar o site!' : 'Infelizmente você é menor de 18 anos e seu acesso não está liberado'}</br>`)
+        document.write(`Seu salário é: ${salário.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</br>`)
+        document.write(`${salário >= 2000 ? 'Uau, você tem um ótimo salário!!' : 'Você precisa estudar mais!!Seu salário está muito baixo.'}`)
+    </script>
+</body>
+
+</html>
